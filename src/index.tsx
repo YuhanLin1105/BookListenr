@@ -1,13 +1,3 @@
-import React from 'react';
-import {Text, View} from 'react-native';
-import {test} from '@/utils/index';
+import Navigator from '@/navigator/index';
 
-const App = () => {
-  return (
-    <View>
-      <Text>App!!!!{test()}</Text>
-    </View>
-  );
-};
-
-export default App;
+export default Navigator;
